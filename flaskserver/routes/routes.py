@@ -9,7 +9,7 @@ def routes(app):
     #PING
     @app.route('/')
     def ping():
-        return flask.render_template("index.html", token="Hello Flask+React")
+        return flask.render_template("index.html", token="Token traido desde flask para la ruta /")
 
     productRoutes(app)
 
