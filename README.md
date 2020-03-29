@@ -1,4 +1,4 @@
-# Small project made to learn python/flask/react/webpack/mysql !!
+# Small project made to learn python/flask/react/webpack/mysql
 
 Videos:
 
