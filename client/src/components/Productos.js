@@ -2,6 +2,12 @@ import React from 'react';
 
 export const Productos = ({productos}) =>{
     return (
-    <div>{productos.length}</div>
+    <div>{productos.map(p => {
+        return (
+            <div>
+                <p>{p.name}</p>
+            </div>
+        )
+    })}</div>
     )
 }
