@@ -1,5 +1,5 @@
 # CRUD of PRODUCTS
-This is a small projects made to learn Flask (python), React, Webpack and MySQL. 
+This is a small project made to learn Flask (python), React, Webpack and MySQL. 
 
 ## Using
 ```bash
