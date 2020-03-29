@@ -1,24 +1,24 @@
 import React, {useState, useEffect} from "react";
+import { Productos } from "./Productos";
 
 const List = () => {
-  const [datos, setDatos] = useState([]);
+  const [productos, setDatos] = useState([]);
 
   useEffect(()=>{
     let getProd = async () => {
       await fetch('/products')
         .then(res => res.json())
         .then(data => {
+          setDatos(data)
           console.log(data)
         })
     }
     getProd()
-  })
+  },[])
 
-  return (
-    <>
-      { datos }
-    </>
-  );
+  return (<div>
+    <Productos productos={productos}></Productos>
+  </div>  );
 };
 
 export default List;
