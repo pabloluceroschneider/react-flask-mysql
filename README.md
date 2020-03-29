@@ -14,8 +14,10 @@ https://flask.palletsprojects.com/en/1.1.x/  </br>
 https://codeburst.io/creating-a-full-stack-web-application-with-python-npm-webpack-and-react-8925800503d9
 
 ## Using
-''' cd client/ && npm run dev
-cd flaskserver/ && python app.py '''
+```bash
+cd client/ && npm run dev
+cd flaskserver/ && python app.py 
+```
 
 ## Author
 [Pablo Daniel Lucero Schneider](https://github.com/ingpabloluceroschneider)
