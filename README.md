@@ -19,13 +19,10 @@ cd client/ && npm run dev
 cd flaskserver/ && python app.py 
 ```
 
-## Author
-[Pablo Daniel Lucero Schneider](https://www.linkedin.com/in/pabloluceroschneider/)
-
-## Collaborators
+## TEAM
+[Agustin Peralta](https://www.linkedin.com/in/agustinperalta/) </ br>
 [Bruno Conti](https://www.linkedin.com/in/contibruno/) </br>
-[Agustin Peralta](https://www.linkedin.com/in/agustinperalta/)
-
+[Pablo Daniel Lucero Schneider](https://www.linkedin.com/in/pabloluceroschneider/)  </br>
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
