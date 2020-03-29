@@ -20,11 +20,11 @@ cd flaskserver/ && python app.py
 ```
 
 ## Author
-[Pablo Daniel Lucero Schneider](https://github.com/ingpabloluceroschneider)
+[Pablo Daniel Lucero Schneider](https://www.linkedin.com/in/pabloluceroschneider/)
 
 ## Collaborators
-[Bruno Conti](https://github.com/BrunoConti10) </br>
-[Agustin Peralta](https://github.com/agustinperalta)
+[Bruno Conti](https://www.linkedin.com/in/contibruno/) </br>
+[Agustin Peralta](https://www.linkedin.com/in/agustinperalta/)
 
 
 ## License
