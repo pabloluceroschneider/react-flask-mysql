@@ -1,4 +1,5 @@
-# Small project made to learn python/flask/react/webpack/mysql
+# CRUD of PRODUCTS
+This is a small projects made to learn Flask (python), React, Webpack and MySQL. 
 
 Videos:
 
