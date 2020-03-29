@@ -329,6 +329,7 @@ module.exports = function(webpackEnv) {
         {
           test: /\.(js|mjs|jsx|ts|tsx)$/,
           enforce: 'pre',
+          exclude: /node_modules/,
           use: [
             {
               options: {
