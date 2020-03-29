@@ -1,11 +1,22 @@
-import React from "react";
-// import axios from "../util/Api";
+import React, {useState, useEffect} from "react";
 
 const List = () => {
+  const [datos, setDatos] = useState([]);
+
+  useEffect(()=>{
+    let getProd = async () => {
+      await fetch('/products')
+        .then(res => res.json())
+        .then(data => {
+          console.log(data)
+        })
+    }
+    getProd()
+  })
 
   return (
     <>
-      {window.token}
+      { datos }
     </>
   );
 };
