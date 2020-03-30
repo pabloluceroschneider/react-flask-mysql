@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import { Productos } from "./Productos";
+import Table from './reusable/htmlTable'
 
 const List = () => {
   const [productos, setDatos] = useState([]);
@@ -17,7 +18,8 @@ const List = () => {
   },[])
 
   return (<div>
-    <Productos productos={productos}></Productos>
+    {/* <Productos productos={productos}></Productos> */}
+    <Table title={"Productos"} columns={["Nombre", "Precio"]} data={productos} />
   </div>  );
 };
 
